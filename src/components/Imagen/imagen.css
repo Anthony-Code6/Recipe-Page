@@ -1,0 +1,19 @@
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;    
+    border-radius: 15px;
+}
+
+
+@media screen and (max-width:900px) {
+    img{
+        border-radius: 0px;
+    }
+  }
+  
+  @media screen and (max-width:500px) {
+    img{
+        border-radius: 0px;
+    }
+  }

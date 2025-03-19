@@ -1,0 +1,80 @@
+.content-recipe {
+  margin-top: 9rem;
+  width: 100%;
+  max-width: 56%;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: hsl(30, 54%, 90%);
+}
+
+.logo {
+  padding: 40px 40px 0 40px;
+  height: min-content;
+  overflow: hidden;
+}
+
+.content {
+  padding: 40px;
+}
+
+.preparation {
+  margin-top: 2.4rem;
+  background-color: hsl(30, 54%, 96%);
+  border-radius: 1.3rem;
+  padding: 20px 35px;
+}
+
+
+.ingredients, .instructions, .nutrition {
+  margin: 2.8rem 0;
+}
+
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: hsl(30, 18%, 87%);
+  width: 100%;
+}
+
+.nutrition-title {
+  font-size: clamp(.9rem, 4vh, 6rem);
+  margin-bottom: 17px;
+  color: hsl(14, 45%, 36%);
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+.nutrition-description {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width:900px) {
+  .logo {
+    padding: 0;
+  }
+
+
+  .content-recipe {
+    margin-top: 6rem !important;
+    max-width: 70% !important;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .logo {
+    padding: 0;
+  }
+
+
+  .content-recipe {
+    margin-top: 0rem !important;
+    max-width: 100% !important;
+  }
+}
